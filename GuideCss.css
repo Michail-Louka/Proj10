@@ -1,0 +1,239 @@
+/*χρώματική παλέτα 
+black, white ,#e8eef1,#bfdff1,#abd7f1,#96cff1,#6dc0f1,#057dcd,#1e3d58*/
+html{
+    font-family:  Condensed,Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-color: #bfdff1   ;
+    max-width: 1600px;
+    margin: auto;
+    
+}
+.container{
+    min-width:700px;
+    border-left: 1px solid #1e3d58;
+    border-right: 1px solid #1e3d58;
+}
+.title{
+    color:#057dcd;
+    font-family:  Condensed,Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #abd7f1;
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    box-shadow: 10px, 10px #1e3d58;
+}
+p{text-shadow:1px 1px  #abd7f1;}
+#H2history{
+    font-size: 200%;
+}
+h1{
+    filter:none;
+    text-shadow:2px 2px 3px #1e3d58 ;
+}
+
+#h2home{
+    margin: 0;
+    background-image: url("https://www.reisroutes.nl/userfiles/fotos/cameo-eiland-op-zakynthos_18662_xl.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color:white;
+    text-shadow: 5px 5px 5px #1e3d58;
+}
+/*NavBar*/
+
+.NavBar{
+    position: sticky;
+    top:0px;
+    background-color:rgb(67, 176, 241) ;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    border-top: 0px;
+    border-bottom: 4px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #1e3d58;
+}
+.NavBar>ul{
+    list-style-type:none;
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: left;
+
+}
+.NavBar li{
+    background-color: #bfdff1;
+    padding-right: 5px;
+    padding: 8px;
+    margin-right: 5px;
+    margin-left:5px;
+    display: inline;
+    box-shadow: 3px 3px 2px;
+    border-radius: 5px;
+}
+.NavBar a:link{
+    color: #1e3d58;
+    text-decoration: none;
+}
+.NavBar a:visited{
+    color:black;
+}
+.NavBar a:visited:hover{
+    color: #057dcd;
+}
+.NavBar a:link:hover{
+    color:#057dcd;
+    box-shadow: none;
+}
+.NavBar a:active{
+    box-shadow: none;
+}
+#grflagicon{
+    height: 15px;
+    width: 15px;
+    background-color: none;
+    padding: 0px 3px 3px 3px;
+    float: right;
+}
+#grflagicon img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+/*Nav Bar End*/
+
+/*Suggetions*/
+.suggetionBox{
+    background-position: center;
+    background-color:  #057dcd;
+    color:rgb(232, 238, 241);
+    padding: 5px;
+    margin: 3px;
+    border-radius: 3px;
+    border-width: 3px;
+    margin: 10px;
+    text-align: center;
+    float:left;
+    box-shadow: 5px 5px 3px #1e3d58;
+    border-radius: 8px;
+}
+
+#suggetions ul{
+    list-style-type: none;
+    text-shadow: 4px 4px 4px #1e3d58;
+}
+#artsSuggetions{
+    min-width:150px ;
+    float: right;
+}
+#AllSuggetions ul{
+    list-style-type: none;
+    display: table inline;
+    margin: 0 auto;
+    width: 20%;
+
+}
+.suggetionBox img{
+    min-width: 200px;
+    min-height: 150px;
+    width: 100%;
+    height: 100%;
+    max-width: 360px ;
+    max-height: 180px;
+    border-radius:8px;
+}
+.suggetionBox:hover{
+    color: #abd7f1;
+    box-shadow: 5px 5px 3px black;
+}
+/*End Suggetions*/
+/*      Article-Main      */
+
+
+.AllArticle{
+    float: left;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 7%;
+    padding-right: 7%;
+    width: 60%;
+    min-width: 400px;
+    border-right: 3px solid #1e3d58;
+    margin: 0;
+    margin-top: 10px;
+}
+.AllArticle p{
+    font-size: 120%;
+    text-align: left;
+    color:#1e3d58;
+}
+.AllArticle img{
+    width:100%;
+    margin-bottom: 20px;
+}
+.AllArticle table{
+    width:100%;
+    height: 30%;
+    margin: auto;
+    border: 1px solid #1e3d58;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.AllArticle  table tr td{
+    background-color: #abd7f1;
+}
+
+.AllArticle ol{
+    list-style-type:decimal;
+
+}
+.AllArticle li{
+    text-align: left;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+.AllArticle ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*End Article-Main*/
+
+/*footer (last part)*/
+footer{
+    position:relative;
+    background-color: #057dcd;
+    padding-top: 3px;
+    float:50em;
+    clear:both;
+    text-align: center;
+    padding-bottom:10px ;
+    bottom: 0;
+}
+footer ul{
+    
+    list-style-type:none;
+    text-align: center; 
+}
+footer li{
+    padding-right: 2em;
+    display: inline;
+    background-color: #057dcd;
+    margin :0;
+
+}
+footer a:link{
+    color:black;
+    text-decoration: none;
+}
+/*Specific Tags*/
+#TavZakul li{
+    font-size: normal;
+}
